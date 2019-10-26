@@ -1,0 +1,13 @@
+{
+	"void": {
+		"prefix": "void",
+		"body": [
+			"void ${1:label}(${2://inputs_here})",
+			"{",
+			"${3://code_here_bruddah-mahn!!:}",
+			"return;",
+			"}"
+		],
+		"description": "add a void function"
+	}
+}
