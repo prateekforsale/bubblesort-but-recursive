@@ -1,0 +1,30 @@
+{
+"inputarray":{
+		"prefix": ["in","ar"],
+		"body":[ 
+		"int arr[20]={0};",
+		"int size;",
+		"printf(\"enter yo size man \" );",
+		"scanf(\"%d\",&size);",
+		"for (int i = 0; i < size; i++) {",
+			"if (i==0) {",
+			"printf(\"enter num \" );",
+			"scanf(\"%d\", &arr[i]);",
+			"}",
+			"if (i!=0) {",
+			"printf(\"enter next num \" );",
+			"scanf(\"%d\", &arr[i]);",
+			"}",
+		"}",
+	
+		"printf(\"initial array: \");",
+		"for (int k = 0; k < size; k++) {",
+			"printf(\"%d \",arr[k]);",
+			"if (k==size-1) {",
+			"printf(\"  \");",
+			"}",
+		"}"],
+		"description": "gives a genralized inputarray"
+		
+	}
+}
