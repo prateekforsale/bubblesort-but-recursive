@@ -1,0 +1,17 @@
+{
+"printf": {
+	"prefix": ["printf", "p"],
+	"body": [
+		"printf(\"%$1\", ${2://data});"
+	],
+	"description": "prints required data"
+},
+
+"scanf": {
+	"prefix": ["scanf", "s"],
+	"body": [
+		"scanf(\"%$1\", &${2://var});"
+	],
+	"description": "scans required data"
+}
+}
